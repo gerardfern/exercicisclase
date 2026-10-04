@@ -21,7 +21,7 @@ public:
     {
         return edat >= 18;
     }
-
+    
     void consultarNom()
     {
         cout << "Nom: " << nom << endl;
@@ -59,9 +59,9 @@ private:
     double alcada;
 
 public:
-    Rectangle(double amplada, double alcada) {
-        this->amplada = amplada;
-        this->alcada = alcada;
+    Rectangle(double a, double h) {
+        amplada = a;
+        alcada = h;
     }
 
     double calcularArea() {
